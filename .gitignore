@@ -1,0 +1,62 @@
+# ------------------------------
+# Hugo 核心生成/缓存文件
+# ------------------------------
+# 构建输出目录（静态网站文件，可重新生成）
+public/
+# 资源缓存目录（图片处理、资产编译缓存，可重新生成）
+resources/
+# Hugo 统计信息文件（自动生成）
+hugo_stats.json
+# Hugo Modules 本地缓存（依赖包缓存，可重新下载）
+/_vendor/
+# 若自定义了构建目录（如 docs/），需补充
+# docs/
+
+# ------------------------------
+# Hugo Modules 相关（按需保留）
+# ------------------------------
+# Go 依赖配置文件（需提交，确保依赖一致）
+# go.mod
+# go.sum
+# Go 编译临时文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Go 模块缓存（全局缓存，非项目内文件）
+$GOPATH/pkg/mod/
+go.work
+go.work.sum
+
+# ------------------------------
+# 编辑器/IDE 配置（按需补充）
+# ------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Vim
+*.swp
+*.swo
+# IntelliJ IDEA（WebStorm 等）
+.idea/
+*.iml
+*.iws
+# 其他
+.DS_Store        # macOS 隐藏文件
+Thumbs.db        # Windows 缩略图缓存
+*.log            # 日志文件
+
+# ------------------------------
+# 自定义忽略（根据项目补充）
+# ------------------------------
+# 若使用主题本地副本（非通过 Modules 引入），可忽略主题目录（建议用 Modules 管理主题）
+# themes/your-theme/
+# 本地测试配置文件（如自定义的 config.local.toml，不共享）
+config.local.toml
+# 个人环境变量文件
+.env
+.env.local
