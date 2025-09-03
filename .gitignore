@@ -11,6 +11,7 @@ hugo_stats.json
 /_vendor/
 # 若自定义了构建目录（如 docs/），需补充
 # docs/
+.hugo_build.lock
 
 # ------------------------------
 # Hugo Modules 相关（按需保留）
