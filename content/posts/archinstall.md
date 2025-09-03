@@ -1,6 +1,6 @@
 +++
 date = '2025-09-03T09:20:25+08:00'
-draft = true
+draft = false
 title = 'Arch Linux安装教程（Windows11双系统）'
 +++
 
