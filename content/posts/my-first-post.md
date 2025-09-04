@@ -4,6 +4,10 @@ draft = false
 title = 'My First Post'
 +++
 
+It's a test post generating by hugo...
+
+<!--more-->
+
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
