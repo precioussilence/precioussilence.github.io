@@ -1,8 +1,12 @@
-+++
-date = '2025-09-03T09:20:25+08:00'
-draft = false
-title = 'Arch Linux安装教程（Windows11双系统）'
-+++
+---
+date: '2025-09-03T09:20:25+08:00'
+draft: false
+title: 'Arch Linux安装教程（Windows11双系统）'
+categories:
+  - tutorial
+tags:
+  - 'Arch Linux'
+---
 
 在安装过很多次Arch Linux后，我终于意识到应该把安装过程记录下来。。。
 
