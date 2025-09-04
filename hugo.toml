@@ -14,6 +14,13 @@ hasCJKLanguage = true
 # shortname = ""
 # [services.googleAnalytics]
 # ID = ""
+[markup]
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false
+[markup.goldmark.parser.attribute]
+block = true
+[markup.highlight]
+noClasses = false
 
 [params]
 # zenMode = true
@@ -51,15 +58,10 @@ siteStartYear = 2025
 
 # Syntax highlighting
 customSyntaxHighlighting = true
-[markup]
-[markup.highlight]
-noClasses = false
-[markup.goldmark.parser.attribute]
-block = true
 
 # options
 stickyNav = true
-reorderNavItems = ["about", "search", "posts", "categories", "tags"]
+reorderNavItems = ["about", "search", "github", "posts", "categories", "tags"]
 collapseNavItems = ["posts", "categories", "tags"]
 # noDefaultSummaryCover = true
 showTableOfContents = true
@@ -68,7 +70,8 @@ imageZoomableInPost = true
 showPrevNextPost = true
 # reorderShares = ["x", "facebook", "whatsapp"]
 
-# [params.navItems]
+[params.navItems]
+github = { href = "https://github.com/precioussilence", target = "_blank", icon = "logo-github", title = "GitHub" }
 
 # [params.twikoo]
 # enabled = true
