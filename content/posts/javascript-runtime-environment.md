@@ -1,7 +1,6 @@
 ---
 title: Javascript运行时环境学习笔记
 date: 2025-09-08T16:32:18+08:00
-lastmod: 2025-09-08T16:32:18+08:00
 cover: /images/bottle.jpg
 images:
   - /images/bottle.jpg

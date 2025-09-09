@@ -1,7 +1,6 @@
 ---
 title: Pnpm的安装及配置
 date: 2025-09-05T15:15:29+08:00
-lastmod: 2025-09-05T15:15:29+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: /images/flower.jpg
@@ -36,7 +35,7 @@ draft: false
 
 如果屏幕前的你也认同这种方式，请继续放心食用；如果您不认同，那么后续文字纯粹就是浪费您的宝贵时间，莫让这些扯淡的辞藻污了您的眼睛，请移步他处，去干点啥有意思的事都比阅读这些无病呻吟的文字强得多！
 
-## 通过`nvm`安装`node lts`版本
+## 通过nvm安装node lts版本
 
 [nvm](https://github.com/nvm-sh/nvm)官方文档提供了很多种安装方式，我选择的是install script，打开terminal，执行命令
 
@@ -46,13 +45,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 然后执行命令`nvm install --lts`安装最新的lts版本，执行命令`nvm current`查看当前node版本
 
-## 通过`node`内置的`corepack`启用`pnpm`
+## 通过node内置的corepack启用pnpm
 
 Corepack是Node.js官方推出的一个包管理器管理工具，用于管理npm、yarn和pnpm的版本，可以大为简化包管理器安装步骤，基于Corepack你只需要执行一条命令`corepack enable pnpm`即可完成pnpm的下载与安装。
 
 > 注意：从Node.js 25开始，Corepack将不再与未来的Node.js版本一起分发，如果想继续使用Corepack需要自行安装
 
-## 通过`pnpm`进行各种必要配置
+## 通过pnpm进行各种必要配置
 
 关于pnpm的配置可以参考这些官方文档：
 

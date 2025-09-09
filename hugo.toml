@@ -6,6 +6,7 @@ title = "Precioussilence's Personal Site"
 defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
 theme = "dream"
+enableGitInfo = true
 enableRobotsTXT = true
 hasCJKLanguage = true
 
