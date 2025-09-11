@@ -2,6 +2,8 @@
 title: Javascript Asynchronous学习笔记
 date: 2025-09-10T13:18:23+08:00
 cover: /images/park.jpg
+images:
+  - /images/park.jpg
 categories:
   - JavaScript
   - '学习笔记'
