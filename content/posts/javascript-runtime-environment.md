@@ -5,9 +5,9 @@ cover: /images/bottle.jpg
 images:
   - /images/bottle.jpg
 categories:
-  - JavaScript
   - '学习笔记'
 tags:
+  - JavaScript
   - 'Event Loop'
   - 'Runtime'
 # nolastmod: true

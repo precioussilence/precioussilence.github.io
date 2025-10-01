@@ -5,9 +5,9 @@ cover: /images/park.jpg
 images:
   - /images/park.jpg
 categories:
-  - JavaScript
   - '学习笔记'
 tags:
+  - JavaScript
   - 'Node.js'
   - Asynchronous
 # nolastmod: true

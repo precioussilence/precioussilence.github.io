@@ -10,8 +10,8 @@ images:
 categories:
   - tutorial
 tags:
-  - pnpm
-  - node
+  - Pnpm
+  - 'Node.js'
   - XDG
 # nolastmod: true
 # math: true
