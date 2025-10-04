@@ -11,7 +11,7 @@ tags:
   - Gin
 # nolastmod: true
 # math: true
-draft: true
+draft: false
 ---
 
 关于Go CRUD项目结构的一些思考
