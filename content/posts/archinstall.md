@@ -121,7 +121,7 @@ get-filehash .\archlinux-2025.08.01-x86_64.iso
     - 选择Write写入分区表
 - 格式化
     - 执行`mkfs.ext4 /dev/nvme0n1p7`格式化`root`分区
-    - 执行`mkswap /nvme0n1p6`格式化`swap`分区
+    - 执行`mkswap /dev/nvme0n1p6`格式化`swap`分区
     - 执行`mkfs.fat -F 32 /dev/nvme0n1p5`格式化`XBOOTLDR`分区
 - 挂载
     - 执行`mkdir /mnt/boot`，`mkdir /mnt/efi`创建挂载目录
@@ -140,7 +140,7 @@ get-filehash .\archlinux-2025.08.01-x86_64.iso
 - Bootloader选择Systemd-boot
 - Network configuration选择Use NerworkManager
 - 当archinstall执行完毕后，选择chroot into installation for post-installation configurations
-- 进入chroot后，执行`bootctl --esp-path=/efi --boot-path=/boot install`完成Systemd-boot配置
+- 进入chroot后，执行`bootctl --esp-path=/efi --boot-path=/boot install`调整Systemd-boot配置
 
 ## 四、收尾工作
 
